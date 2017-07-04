@@ -4,7 +4,7 @@ Toot the server status and latency of several Redacted services.
 
 Clone this repo and cd into it:
 
-``
+```
 git clone https://github.com/NeuroWinter/RedactedMastodonStatus.git
 cd RedactedMastodonStatus
 ```
