@@ -62,7 +62,7 @@ data = r.json()
 
 tests = "Website","TrackerHTTP","TrackerHTTPS","IRC","IRCTorrentAnnouncer","IRCUserIdentifier",
 
-postData = "Redacted status: \n \n"
+postData = " #TrackerStats \n \n Redacted status: \n \n"
 
 for test in tests:
     if data[test]['Status']:

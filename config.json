@@ -1,5 +1,5 @@
 {
-    "botname": "Botnam",    
+    "botname": "Botname",    
     "email": "botEmail",
     "password": "soSecure",
     "instance_url": "https://octodon.social"
