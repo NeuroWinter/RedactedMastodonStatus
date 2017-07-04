@@ -38,7 +38,7 @@ def mastodon_bot(botname, email, password, instance_url='https://octodon.social'
     return mastodon
 
 
-with open('config.json', 'r') as f:
+with open((sys.path[0] + '/config.json'), 'r') as f:
     config = json.load(f)
 
 try:
